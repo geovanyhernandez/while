@@ -14,8 +14,6 @@ char elegir;
 	 if  (elegir == 'C')
 {       
 
-
-
 double radio;
 double resultadoArea;
 double resultadoCircunferencia;
@@ -34,11 +32,11 @@ double resultadoCircunferencia;
 
 }
 
-else 
+else 	 if  (elegir == 'R')
 {  
 
-double altura = 0;
-double base = 0;
+double altura;
+double base;
 
 	System.out.print("\ningresa la altura del rectangulo : ");
 	altura = sc.nextDouble();
