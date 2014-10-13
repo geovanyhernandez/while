@@ -15,20 +15,15 @@ char elegir;
 {       
 
 double radio;
-double resultadoArea;
-double resultadoCircunferencia;
+
 
 	System.out.print("\nIngresa el radio : ");
 	radio = sc.nextDouble();
 
-
 	Circulo operaciones = new Circulo(radio);
 	
-	resultadoArea = operaciones.Area();
-	resultadoCircunferencia = operaciones.Circunferencia();
-
-	System.out.print("\n la area del circulo es : " + resultadoArea);
-	System.out.print("\n la circunferencia del circulo es : " + resultadoCircunferencia);
+	System.out.print("\n la area del circulo es : " + operaciones.Area());
+	System.out.print("\n la circunferencia del circulo es : " + operaciones.Circunferencia());
 
 }
 
