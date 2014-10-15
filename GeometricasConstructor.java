@@ -11,7 +11,7 @@ char elegir;
 
  while ((elegir != 'T')&&(elegir != 't'))
 {
-	 if  ((elegir == 'C')&&(elegir == 'c'))
+	 if  (elegir == 'C' || elegir == 'c')
 {       
 
 double radio;
@@ -27,7 +27,7 @@ double radio;
 
 }
 
-else 	 if  ((elegir == 'R')&&(elegir == 'r'))
+else 	 if  (elegir == 'R' ||elegir == 'r')
 {  
 
 double altura;
